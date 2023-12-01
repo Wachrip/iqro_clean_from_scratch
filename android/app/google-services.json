@@ -1,0 +1,82 @@
+{
+  "project_info": {
+    "project_number": "959513450126",
+    "project_id": "iqrosoft-7c2f1",
+    "storage_bucket": "iqrosoft-7c2f1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:959513450126:android:2ef20f62d22800e7821bdf",
+        "android_client_info": {
+          "package_name": "com.example.iqro_clean_from_scratch"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "959513450126-cajkkdmjmemn81h6v4ft9mj41h6sqvfv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDtDCqSuksC0DJY80wpOWn-QznPAiJaLNc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "959513450126-cajkkdmjmemn81h6v4ft9mj41h6sqvfv.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "959513450126-407kglej66gd8f3ht115baaqh6m88nd2.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.iqroSoft.dev"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:959513450126:android:e776cbf5325fe4cc821bdf",
+        "android_client_info": {
+          "package_name": "com.example.iqro_soft"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "959513450126-cajkkdmjmemn81h6v4ft9mj41h6sqvfv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDtDCqSuksC0DJY80wpOWn-QznPAiJaLNc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "959513450126-cajkkdmjmemn81h6v4ft9mj41h6sqvfv.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "959513450126-407kglej66gd8f3ht115baaqh6m88nd2.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.iqroSoft.dev"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
