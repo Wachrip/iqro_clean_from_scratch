@@ -5,11 +5,11 @@ import 'package:iqro_clean_from_scratch/core/usecases/usecase.dart';
 import 'package:iqro_clean_from_scratch/features/iqro_mobile/domain/entities/category_entity.dart';
 import 'package:iqro_clean_from_scratch/features/iqro_mobile/domain/repositories/get_category_list_repository.dart';
 
-class GetCategoryList
+class GetCategoryListUseCase
     implements UseCase<List<CategoryEntity>, CollectionNameParams> {
   final GetCategoryListRepository getCategoryListRepository;
 
-  GetCategoryList({required this.getCategoryListRepository});
+  GetCategoryListUseCase({required this.getCategoryListRepository});
 
   @override
   Future<Either<Failure, List<CategoryEntity>>> call(

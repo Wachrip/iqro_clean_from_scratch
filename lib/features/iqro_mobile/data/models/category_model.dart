@@ -11,7 +11,7 @@ class CategoryModel extends CategoryEntity {
             title: title,
             image: image,
             isActive: isActive,
-            articleList: articleList);
+            articleList: articleList ?? []);
   @override
   factory CategoryModel.fromJson(Map<String, dynamic> json) =>
       _$CategoryModelFromJson(json);

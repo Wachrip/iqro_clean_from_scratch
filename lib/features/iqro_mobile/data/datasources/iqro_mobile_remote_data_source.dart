@@ -14,11 +14,11 @@ class IqroMobileRemoteDataSourceImpl implements IqroMobileRemoteDataSource {
   Future<List<CategoryModel>> getCategoryModelList(
       String collectionName) async {
     // TODO: implement getCategoryModelList
-    final stepList = await firestoreDb.collection(collectionName).get();
-    print(stepList);
-    CategoryModel temp = CategoryModel(
-      id: 1,
-    );
-    return [temp];
+    final categoryList = await firestoreDb.collection(collectionName).get();
+    final data = categoryList.docs.map((doc) => doc.data()).toList();
+    List<CategoryModel> categoryModelList =
+        data.map((category) => CategoryModel.fromJson(category)).toList();
+
+    return categoryModelList;
   }
 }
